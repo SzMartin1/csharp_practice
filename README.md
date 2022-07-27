@@ -1,1 +1,2 @@
-# csharp_practice
+# C# Gyakorlása
+Ide fogom feltölteni a c# kódokat.
