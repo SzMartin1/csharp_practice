@@ -1,0 +1,13 @@
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.exe
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.deps.json
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.runtimeconfig.dev.json
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.dll
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\bin\Debug\netcoreapp3.1\basics_of_csharp.pdb
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.csprojAssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.dll
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.pdb
+C:\Users\Lenovo\OneDrive\Asztali gép\c#_basics\basics_of_csharp\basics_of_csharp\obj\Debug\netcoreapp3.1\basics_of_csharp.genruntimeconfig.cache
