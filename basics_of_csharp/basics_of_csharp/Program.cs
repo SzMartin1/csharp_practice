@@ -374,13 +374,124 @@ namespace basics_of_csharp
             #endregion
 
             #region
+            Messages.Hello();
+            Messages.Waiting();
+            Messages.Bye();
+            #endregion
 
+            #region
+            //object = an instance of a class
+            //         A class can be used as a blueprint to create objects (OOP)
+            //         objects can have fields and methods (characteristics and actions)
+
+            Human human = new Human("Rick",101);
+            Human human2 = new Human("Morty",18);
+
+            
+
+            human.Eat();
+            human.Sleep();
+
+            human2.Eat();
+            human2.Sleep();
+
+
+            #endregion
+
+            #region
+            //Constructors
+
+            Car car1 = new Car("Ford","Mustang",2022,"red");
+            Car car2 = new Car("Chevy", "Corvette", 2021, "blue");
+
+            car1.Drive();
+            car2.Drive();
+            #endregion
+
+            #region
+            // static modifier
+            // - declare a static member, which belongs to the class itself
+            //  rather than to any specific object
+            Console.WriteLine(Car.numberOfCars);
+            Car.StartRace();
+            #endregion
+
+            #region
+            //overloaded constructors
+            Pizza pizza1 = new Pizza("Stuffed crust", "tomato sauce", "mozzarella");
+            Pizza pizza2 = new Pizza("Normal crust", "garlic sauce", "Cheddar", "Salami");
+            #endregion
+
+            #region
+            //inheritance = 1 or more child classes recieving fields, methods etc. from a common parent
+
+            Auto auto = new Auto();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
+            Console.WriteLine(auto.speed);
+            Console.WriteLine(auto.wheels);
+
+            Console.WriteLine(bicycle.speed);
+            Console.WriteLine(bicycle.wheels);
+
+            Console.WriteLine(boat.speed);
+            Console.WriteLine(boat.wheels);
+            #endregion
+
+            #region
+            //abstract classes = modifier that indicates missing components or incomplete implementation
+            //Vehicle vehicle = new Vehicle();  Vehicle is abstract, so i can't make an object from it
+
+            #endregion
+
+            #region
+            //array of objects
+            Cheese[] blockOfCheese = new Cheese[3];
+
+            Cheese cheese1 = new Cheese("Cheddar", "Awesome", 1500);
+            Cheese cheese2 = new Cheese("Trappista", "Great", 750);
+            Cheese cheese3 = new Cheese("Mozzarella", "Average", 1000);
+
+            blockOfCheese[0] = cheese1;
+            blockOfCheese[1] = cheese2;
+            blockOfCheese[2] = cheese3;
+
+            Console.WriteLine(blockOfCheese[0].name);
+            Console.WriteLine(blockOfCheese[1].name);
+            Console.WriteLine(blockOfCheese[2].name);
+
+            //OR
+
+            foreach (Cheese cheese in blockOfCheese)
+            {
+                Console.WriteLine(cheese.name);
+            }
+            #endregion
+
+            #region
+            //objects as arguments
+
+            Cheese cheese4 = new Cheese("Karaván", "Best", 2000);
+
+            ChangePrice(cheese4, 3500);
+            Console.WriteLine(cheese4.price);
+            #endregion
+
+            #region
+            //method overriding = provides a new version of a method inherited from a parent class
+            //                    inherited method must be: abstract, virtual, or already overriden
+            //                    Used with ToString(), polymorphism
             #endregion
 
 
         }
 
-      
+        public static void ChangePrice(Cheese cheese,int price)
+        {
+            cheese.price = price;
+        }
+
+
         static void singHappyBirthday(string birthdayBoy, int yearsOld)
         {
             Console.WriteLine("Happy birthday to you!");

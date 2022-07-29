@@ -4,17 +4,17 @@ using System.Text;
 
 namespace basics_of_csharp
 {
-    class Messages
+    public static class Messages
     {
-        void Hello()
+        public static void Hello()
         {
             Console.WriteLine("Welcome to the program lad");
         }
-        void Waiting()
+        public static void Waiting()
         {
             Console.WriteLine("I am waiting for soemthing");
         }
-        void Bye()
+        public static void Bye()
         {
             Console.WriteLine("Thanks for visiting, bye!");
         }
